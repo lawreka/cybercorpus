@@ -10,16 +10,16 @@
 
 const siteConfig = {
   title: 'Cyber Corpus', // Title for your website.
-  tagline: 'A thesis presented to the division of Arts, Reed College May 2014',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  tagline: `Kathryn Lawrence • Reed College • May 2014`,
+  url: 'lawreka.github.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'cybercorpus',
+  organizationName: 'lawreka',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -31,14 +31,14 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/computergirl.png',
+  footerIcon: 'img/computergirl.png',
+  favicon: 'img/computergirl.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#0369af',
-    secondaryColor: '#02497a',
+    primaryColor: '#000',
+    secondaryColor: '#666',
   },
 
   /* Custom fonts for website */
@@ -56,7 +56,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Kathryn Lawrence`,
+  copyright: `Copyright © May 2014 Kathryn Lawrence`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

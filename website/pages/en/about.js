@@ -14,11 +14,21 @@ function About(props) {
 	return (
 	    <div className="docMainWrapper wrapper">
 	      <Container className="mainContainer">
-	        <div>
-	          <header>
-	            <h1>Hi beech</h1>
-	          </header>
-					</div>
+	        <div class="intro">
+            A Thesis Presented to The Division of The Arts
+          </div>
+          <div class="intro">
+            Reed College
+          </div>
+          <div class="intro">
+            In Partial Fulfillment of the Requirements for the Degree Bachelor of Arts
+          </div>
+          <div class="intro">
+            Kathryn Isabelle Lawrence
+          </div>
+          <div class="intro">
+            May 2014
+          </div>
 				</Container>
 			</div>
 	);

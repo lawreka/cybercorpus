@@ -39,3 +39,12 @@
   visibility: visible;
   opacity: 1;
 }
+.intro{
+	max-width: 70%;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 16px;
+}
+.introtext{
+	margin-bottom:24px;
+}
