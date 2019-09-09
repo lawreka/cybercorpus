@@ -35,7 +35,12 @@ class Footer extends React.Component {
               />
             )}
           </a>
+          <div class="footerlink">
+            <a href={this.props.config.url}>kathrynisabelle.com</a>
+          </div>
         </section>
+
+
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
