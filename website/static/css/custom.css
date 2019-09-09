@@ -14,6 +14,14 @@
 
 @media only screen and (min-width: 1500px) {
 }
+body{
+	overflow-x: hidden;
+}
+blockquote{
+	background-color: rgba(102, 102, 102, 0.2);
+	border-left: 8px solid #666;
+	color: #000;
+}
 .footnote{
 	position: relative;
 	display: inline;
@@ -23,9 +31,9 @@
 }
 .footnote .citation{
 	visibility: hidden;
-	width: auto;
-  background-color: #555;
-  color: #fff;
+	min-width: 200px;
+	background-color: #000;
+	color: #00e145;
 	font-size: 12px;
   padding: 8px;
   border-radius: 6px;
@@ -38,6 +46,7 @@
   visibility: visible;
   opacity: 1;
 }
+
 .intro{
 	max-width: 70%;
 	margin-left:auto;
