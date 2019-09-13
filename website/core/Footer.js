@@ -36,10 +36,14 @@ class Footer extends React.Component {
             )}
           </a>
           <div class="footerlink">
+            <img class="footericon" src={this.props.config.moonicon} />
             <a href={this.props.config.url}>kathrynisabelle.com</a>
           </div>
+          <div class="footertext footerlink">
+            <img class="footericon" src={this.props.config.docusaurImg} />
+            Built with <a href={this.props.config.docusaurUrl}>Docusaurus</a>
+          </div>
         </section>
-
 
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>

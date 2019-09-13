@@ -38,7 +38,7 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#000',
-    secondaryColor: '#666',
+    secondaryColor: '#39d2e0',
   },
 
   /* Custom fonts for website */
@@ -56,7 +56,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © May 2014 Kathryn Lawrence`,
+  copyright: `Copyright © Kathryn Lawrence`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -64,7 +64,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: ['https://buttons.github.io/buttons.js', "assets/js/cite.js"],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -87,7 +87,9 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  docusaurUrl: 'https://docusaurus.io/en/',
+  docusaurImg: 'https://docusaurus.io/img/docusaurus.svg',
+  moonicon: 'https://kathrynisabelle.com/images/moonemoji.png',
 };
 
 module.exports = siteConfig;

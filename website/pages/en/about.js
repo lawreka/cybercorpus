@@ -15,19 +15,7 @@ function About(props) {
 	    <div className="docMainWrapper wrapper">
 	      <Container className="mainContainer">
 	        <div class="intro">
-            A Thesis Presented to The Division of The Arts
-          </div>
-          <div class="intro">
-            Reed College
-          </div>
-          <div class="intro">
-            In Partial Fulfillment of the Requirements for the Degree Bachelor of Arts
-          </div>
-          <div class="intro">
-            Kathryn Isabelle Lawrence
-          </div>
-          <div class="intro">
-            May 2014
+            <span class="oblique">Cyber Corpus</span> was my final thesis to graduate Reed College in Portland, OR, with an art history degree in May of 2014. Eventually I'd like to link this document with the Virtual Thesis Tower at the Reed library, but for now please enjoy reading my undergraduate adventures in cyberfeminist art history (unedited from the print edition, some footnotes have been re-numbered for clarity).
           </div>
 				</Container>
 			</div>

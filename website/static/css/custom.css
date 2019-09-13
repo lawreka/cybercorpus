@@ -30,7 +30,7 @@ blockquote{
 	padding: 4px;
 }
 .footnote .citation{
-	visibility: hidden;
+	display: none;
 	min-width: 200px;
 	background-color: #000;
 	color: #00e145;
@@ -39,14 +39,13 @@ blockquote{
   border-radius: 6px;
 	position: absolute;
   z-index: 1;
-	opacity: 0;
-  transition: opacity 0.3s;
 }
 .footnote:hover .citation{
-  visibility: visible;
-  opacity: 1;
+  display: block;
 }
-
+.oblique{
+	font-style: oblique;
+}
 .intro{
 	max-width: 70%;
 	margin-left:auto;
@@ -56,7 +55,18 @@ blockquote{
 .introtext{
 	margin-bottom:120px;
 }
-.footerlink{
-	padding:16px;
+.footertext{
 	color: #fff;
+}
+.nav-footer .sitemap a{
+	color:#39d2e0;
+	display:inline;
+}
+.nav-footer .sitemap a:hover{
+	color:#fff;
+}
+.footericon{
+	width: 24px;
+	vertical-align: sub;
+	padding-right: 8px;
 }
