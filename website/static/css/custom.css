@@ -55,6 +55,12 @@ a{
 	margin-right: auto;
 	padding: 16px;
 }
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+	.intro{
+		max-width: 100%;
+	}
+}
 .introtext{
 	margin-bottom:120px;
 }
