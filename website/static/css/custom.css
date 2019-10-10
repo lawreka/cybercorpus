@@ -22,6 +22,9 @@ blockquote{
 	border-left: 8px solid #666;
 	color: #000;
 }
+a{
+	color: #39d2e0;
+}
 .footnote{
 	position: relative;
 	display: inline;
@@ -57,6 +60,9 @@ blockquote{
 }
 .footertext{
 	color: #fff;
+}
+.footerlink{
+	padding: 16px;
 }
 .nav-footer .sitemap a{
 	color:#39d2e0;
